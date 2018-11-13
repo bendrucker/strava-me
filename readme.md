@@ -1,4 +1,4 @@
-# strava-me [![Build Status](https://travis-ci.org/bendrucker/strava-me.svg?branch=master)](https://travis-ci.org/bendrucker/strava-me)
+# strava-me [![Build Status](https://travis-ci.org/bendrucker/strava-me.svg?branch=master)](https://travis-ci.org/bendrucker/strava-me) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/strava-me.svg)](https://greenkeeper.io/)
 
 > Get the current user via the Strava API
 
