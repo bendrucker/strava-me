@@ -21,9 +21,9 @@ test('offline', function (t) {
       id: 123
     })
 
-  me({accessToken: 'token'}, function (err, data) {
+  me({ accessToken: 'token' }, function (err, data) {
     if (err) return t.end(err)
-    t.deepEqual(data, {id: 123})
+    t.deepEqual(data, { id: 123 })
   })
 
   nock.restore()
@@ -35,7 +35,7 @@ if (accessToken) {
   test('online', function (t) {
     t.plan(1)
 
-    me({accessToken}, function (err, data) {
+    me({ accessToken }, function (err, data) {
       if (err) return t.end(err)
       t.equal(data.firstname, 'Ben')
     })
